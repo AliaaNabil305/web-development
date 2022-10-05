@@ -1,0 +1,22 @@
+h1{ color: aliceblue;}
+.first{
+    background-color: black;
+    color: aliceblue ;
+}
+.red{
+    color: red;
+}
+.first .inner h1{
+    color: green ;
+}
+.boxes{
+    background-color: blueviolet;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+.box{
+    background-color: brown;
+    width: 200px;
+}
