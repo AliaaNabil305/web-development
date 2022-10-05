@@ -1,0 +1,76 @@
+.bar{
+    width: 101.5vw;
+    background-color:rgb(245, 245, 235);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.bar ul li{
+    font-size: 20px;
+    margin-right: 60px;
+}
+.bar h1{
+  padding-right: 40px;
+}
+
+.care{
+    background-color:rgb(245, 245, 235);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 50px;
+    
+}
+.care.bd{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.care img{
+    width: 30%;
+}
+.bd h2{
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+.bd p{
+    font-size: 30px;
+    color: grey;
+}
+.wel{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 100px;
+}
+.wel h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.wel p{
+    font-size: 20px;
+    color: grey;
+}
