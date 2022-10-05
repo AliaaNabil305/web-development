@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bar{
+    max-width:100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: burlywood;
+    
+}
+
+.bar ul{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 20%;
+    width: 250px;
+}
+.bar h1{
+    padding-left: 250px;
+}
+.bar ul li a{
+    color: black;
+    font-size: 20px;
+}
+ .container{
+    width: 100%;
+    height: 170vh;
+    text-align: center;
+    
+}
+.main{
+  background-color: beige;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 20vh;
+    margin-top: 10px;
+
+}
+  .main h2{
+    font-size: 40px;
+    margin-top: 10px;
+
+ }
+ .main p{
+    color: grey;
+    font-size: 15px;
+    margin-top: 10px;
+ }
+.boxes{
+   
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+   
+ }
+  .container .boxes .box{
+    width: 40%;
+    height: 45vh;
+    margin-bottom: 10px;
+  }
+
+  .container.boxes.box.body{
+    margin:auto;
+    width: 65%;
+
+  }
+  .container .boxes .box img{
+    width: 90%;
+  }
+
+  .body p{
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .body button{
+    margin-top: 5px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 5px;
+   width: 10%;
+   height: 10%;
+    
+  }
+  .middle{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    margin-top: 100px;
+  }
+  .middle .text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 50%;
+  }
+  .text h4{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .text p{
+    font-size: 20px;
+    color: black;
+  }
+  .text button{
+    margin-top: 5px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 5px;
+   width: 10%;
+   height: 10%;
+
+  }
+
+  .middle img{
+    width: 30%;
+    height:60%;
+    object-fit: cover;
+  }
+
+  .insta{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    margin-top: 30px;
+
+  }
+  .insta h5{
+    
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  .insta.imj{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    
+  }
+ .imj img{
+    width:20%;
+    height: 20%;
+    margin-right: 50px;
+    
+  }
+  .copy{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .copy h6{
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+ .copy ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+  list-style: none;
+  width: 200px;
+  margin-bottom: 20px;
+ }
+ 
+  
+
+
+
