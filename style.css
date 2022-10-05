@@ -1,0 +1,55 @@
+ h1{ color: aliceblue;}
+.first{
+    background-color: black;
+    color: aliceblue ;
+}
+.red{
+    color: red;
+}
+.first .inner h1{
+    color: green ;
+} 
+.boxes{
+    background-color: blueviolet;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content:flex-end;
+
+ 
+}
+.box{
+    background-color: brown;
+    width: 200px;
+    height: 100px;
+}
+.navbar{
+    background-color: antiquewhite;
+    width: 100%;
+    justify-content: space-around;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+
+
+}
+*{
+    margin:0;
+    padding:0;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 300px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    font-size: 20px;
+}
