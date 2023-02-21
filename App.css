@@ -1,42 +1,224 @@
 .App {
-  text-align: center;  
+  text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-.navbar{
+.bar{
   background-color: black;
   color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   flex-direction: row;
   align-items: center;
   width: 100%;
   height: 9vh;
 }
- .navbar ul{
+.bar ul{
 
   list-style: none;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
    width: 40%;
+   margin-right: 100px;
+   font-size: 20px;
  }
- .navbar ul li a{
+ .bar ul li a{
   text-decoration: none;
   color: white;
  }
- .hero{
-  width: 100vw;
+ .main{
+  width: 100%;
   height: 91vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.49),rgba(0, 0, 0, 0.5),url("./image/mike-kenneally-zlwDJoKTuA8-unsplash.jpg") no-repeat top center);
-  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color:beige;
+  
+
+
+ }
+ .main .text{
+  margin-top: 100px;
+  width: 60vw;
+  margin-right: 140px;
+
+ }
+ .text h1{
+  font-size: 60px;
+ }
+ .text p{
+  font-size: 30px;
+  
+ }
+ .text button{
+  width: 10vw;
+  height: 20vh;
+  margin-left: 30px;
+  border-radius: 70px;
+  background-color: rgb(243, 208, 165);
+  font-size:20px;
+  border-width: 1px;
+ 
+ }
+ .text button:hover{
+  background-color: rgb(245, 186, 115);
+  transition: 0.7s;
  }
  
- 
+ .main .imj img{
+  margin-top: 100px;
+  width: 30vw;
+  height: 60vh;
+  margin-left: 100px;
+  border-radius: 200px;
+  object-fit:cover;
 
+ }
+ .resume{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color:beige; 
+ 
+ }
+ .resume h1{
+  color: rgb(76, 151, 173);
+ }
+ .edu{
+   display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+ width: 80%;
+  height: 60vh;
+  
+
+ }
+ .exp{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+ width: 80%;
+  height: 60vh;
+  
+ }
+ .skills{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+ width: 80%;
+  height: 60vh;
+  
+ }
+ .words{
+  
+  justify-content: space-between;
+  flex-direction: column;
+  
+  align-items: center;
+  text-align: left;
+ width: 60%; 
+ }
+ 
+ .proj{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 91vh;
+  background-color:beige; 
+  
+ }
+ .proj h1{
+  color: rgb(76, 151, 173);
+ }
+ .pro{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  height: 18vh;
+  text-align: center;
+  
+ }
+ .pro button{
+  width: 10vw;
+  height: 5vh;
+  margin-left: 30px;
+  border-radius: 10px;
+  background-color:rgba(252, 19, 19, 0.253);
+  font-size:20px;
+  border-width: 1px;
+ }
+ .pro button:hover{
+  background-color: rgb(245, 186, 115);
+  transition: 0.7s;
+  cursor:grab;
+ }
+
+ .contact{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 90vh;
+padding-top: 50px;
+  background-color:beige; 
+ }
+ .contact h1{
+  color: rgb(76, 151, 173);
+ }
+ .info{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 70vh;
+ }
+ .image{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
+ .input{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 30%;
+ }
+ .input button{
+  width: 10vw;
+  height: 20vh;
+  margin-left: 30px;
+  border-radius: 60px;
+  background-color: rgb(247, 148, 28);
+  font-size:20px;
+  border-width: 1px;
+ }
+ .input button:hover{
+  background-color: rgb(245, 186, 115);
+  transition: 0.7s;
+ }
+ .image img{
+  margin-left: 10px;
+ }
+ .inp input{
+  height: 4vh;
+  
+ }
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

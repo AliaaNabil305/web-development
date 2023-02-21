@@ -1,33 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-import User from './components/User';
-import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
-import { useState ,useEffect } from 'react';
-import Home from '../src/components/Home';
-import About from '../src/components/About';
-import Error from '../src/components/Error';
-import Navbar from './components/Navbar';
-import Data from './components/Data';
-import Todos from './components/Todos';
+import { BrowserRouter as Router , Routes , Route , Link } from 'react-router-dom';
+import Bar from './Components/Bar';
+import Resume from './Components/Resume';
+import Projects from './Components/Projects';
+import Contact from './Components/Contact';
+import Main from './Components/Main';
+import Below from './Components/Below';
 function App() {
-  
   return (
     <div className="App">
-     
-      <Router>
-        <Navbar />
+    <Router>
+        <Bar/>
+       
         <Routes>
-        <Route path="/Todos" element={<Todos/>} />
-        <Route path="/Data" element={<Data/>} />
-          <Route path="*" element={<Error/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/home" element={<Home/>} />
+           <Route path="/Main" element={<Main/>} />
+          <Route path="/Resume" element={<Resume/>} />
+          <Route path="/Projects" element={<Projects/>} />
+          <Route path="/Contact" element={<Contact/>} />
         </Routes>
       </Router>
-
-
-      </div>
-      
+    </div>
   );
 }
 
