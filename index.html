@@ -1,62 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> third session </title>
-        <link rel="stylesheet" href="./style/style.css">
+        <title>java</title>
     </head>
     <body>
-       <div class="first">
-        <h1> Logo </h1>
-        <ul>
-            <li <a href="#">Home</a></li>
-             <li <a href="#">About</a></li>
-             <li <a href="#">contact</a></li>
-        </ul>
-       </div>
-        
-       <div class="text">
-        <h2> My culinary journey from A to Z</h2>
-        <p> join me for daily reflection and delicious recipes </p>
-
-       </div>
-        
-       <div class="parent">
-
-        <div class=" object">
-        <img src="./images/0bfd87ab-5f9b-4baa-b5fa-e589beacaf88.jpg" alt="no img">
-        <h3>one </h3>
-        <p> kkkkkkkkk</p>
-        <button> show </button>
-        </div>
-        <div class="object">
-            <img src="./images/5f06987e-9a63-426e-99b3-8dcc68a108e6.jpg" alt="no img">
-            <h4> two</h4>
-            <p> jjjjjjjjjj</p>
-            <button> show </button>
-        </div>
-       
-        <div class="object">
-            <img src="./images/b7c60779-5bd2-44a6-ac59-2819e134c64e.jpg" alt="no img">
-            <h6> four </h6>
-            <p> ssssssssss </p>
-            <button> show </button>
-        </div>
-
-        
-       </div>
-       <div class="coffee">
-        <div class="beans"> 
-        <h1> order your best coffee now </h1>
+        <input type="text" placeholder="enter backgroung color" class="bgcolor">
+        <button class="btn">change</button>
+        <button onclick="changebg()">change bg </button>
+        <button onclick="show()">show text </button>
         <br>
-        <p> kkkkkkkkkk</p>
-        </br>
-        <button> order </button>
-    </div>
-    <div class="beans">
-        <img src="./images/0bfd87ab-5f9b-4baa-b5fa-e589beacaf88.jpg"
-    </div>
-    
-       </div>
+        <input type="text" placeholder="first number">
+        <input type="text" placeholder="second number">
+        <button onclick="add()">add</button>
+    </br>
+       
+        <script>
+            let x=3;
+            let y=5
+            let z=x+y
+            console.log("the sum of ",x,"and",y,"is",z,)
+            let arr=[1,2,3,4]
+             for(let i=0;i<arr.length;i++){
+                console.log(2*arr[i])
+             }
+             
+             
 
+             let button = document.querySelector(".btn")
+             button.addEventListener("click",function(){
+                console.log("button is clicked")
+
+             })
+             const changebg = ()=>{
+                let color=document.querySelector(".bgcolor")
+                let body = document.querySelector("body")
+                body.style.backgroundColor=color.value
+             }
+             
+            
+
+
+              
+             
+
+             
+
+             
+             
+
+
+        </script>
     </body>
 </html>
